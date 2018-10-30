@@ -1,0 +1,94 @@
+.content-grid {
+    display: grid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+    width: 960px;
+    height: 935px;
+    background-color: white;
+    z-index: 2;
+    border: 1px solid #dddddd;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "content-title";
+}
+.content-title-container {
+    grid-area: content-title;
+    height: 97px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+.content-title {
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.form-grid {
+    display: grid;
+    height: 730px;
+    width: 590px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+    margin-top: 40px;
+    grid-template-columns: 275px;
+    grid-template-rows: 205px;
+    column-gap: 40px;
+    row-gap: 55px;
+    grid-template-areas:
+    "hangman rpg"
+    "trivia rutgers"
+    "rock-paper-scissors";
+}
+.hangman {
+    grid-area: hangman;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+.rpg {
+    grid-area: rpg;
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+}
+.trivia {
+    grid-area: trivia;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+}
+.rutgers {
+    grid-area: rutgers;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+}
+.rock-paper-scissors {
+    grid-area: rock-paper-scissors;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+}
+.picture {
+    width: 275px;
+    height: 205px;
+}
+.banner-text {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.banner {
+    position: absolute;
+    text-align: center;
+    bottom: 10;
+    width: 275px;
+    height: 60px;
+    background-color: #4aaaa5;
+}
