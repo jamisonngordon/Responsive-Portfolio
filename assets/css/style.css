@@ -131,3 +131,40 @@ a {
         width: auto;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    
+    .name {
+        grid-area: name;
+        width: auto;
+        height: 89px;
+        margin-left: 0;
+        background-color: #4aaaa5;
+    }
+    .nav {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin: auto;
+        height: 65px;
+    }
+    .header-grid {
+        display: grid;
+        grid-template-columns: auto;
+        height: 155px;
+        grid-template-areas: 
+        "name"
+        "nav";
+    }
+    .nav-text {
+        height: 17px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #999999;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+}
