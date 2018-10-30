@@ -86,3 +86,24 @@ body {
 a {
     text-decoration: none !important;
 }
+
+@media only screen and (max-width: 980px) {
+    
+    .name {
+        grid-area: name;
+        width: 250px;
+        height: 89px;
+        margin-left: 50px;
+        background-color: #4aaaa5;
+        float: right;
+    }
+    .nav {
+        float: left;
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+}
