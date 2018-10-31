@@ -139,6 +139,10 @@
 
 @media only screen and (max-width: 640px)
 {
+    .content-grid {
+        width: auto;
+        margin: 20px 20px auto 20px;
+    }
     .form-grid {
         width: auto;
         height: auto;
