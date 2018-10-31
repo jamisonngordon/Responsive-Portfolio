@@ -178,4 +178,7 @@ a {
         color: #999999;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
+    .nav-text-about {
+        padding-left: 0;
+    }
 }
