@@ -131,7 +131,15 @@ a {
 }
 
 @media only screen and (max-width: 640px) {
-    
+    .name-text {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 30px;
+        height: 89px;
+        font-weight: bold;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
     .name {
         grid-area: name;
         width: auto;
