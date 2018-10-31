@@ -3,8 +3,8 @@
     position: absolute;
     left: 0;
     right: 0;
-    margin: 35 auto;
-    width: 960;
+    margin: 35px auto 50px auto;
+    width: 960px;
     height: auto;
     background-color: white;
     z-index: 2;
@@ -92,6 +92,6 @@
         color: #777777;
     }
     .body-container {
-        min-height: 1280px !important;
+        min-height: 2380px !important;
     }
 }
