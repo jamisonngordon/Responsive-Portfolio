@@ -92,3 +92,108 @@
     height: 60px;
     background-color: #4aaaa5;
 }
+
+@media only screen and (max-width: 980px) {
+    .content-grid {
+        width: 650px;
+        margin: 40px auto auto 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-grid {
+        width: auto;
+        height: auto;
+        margin: 40px 20px auto 20px;
+    }
+
+    .form-grid {
+        width: auto;
+        height: auto;
+        margin-bottom: 55px;
+        margin-right: 30px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        column-gap: 40px;
+        row-gap: 40px;
+        grid-template-areas:
+        "hangman rpg"
+        "trivia rutgers"
+        "rock-paper-scissors";
+    }
+
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        position: absolute;
+        text-align: center;
+        bottom: 10;
+        width: 100%;
+        height: 60px;
+        background-color: #4aaaa5;
+    }
+}
+
+@media only screen and (max-width: 640px)
+{
+    .form-grid {
+        width: auto;
+        height: auto;
+        margin-bottom: 55px;
+        margin-right: 30px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        column-gap: none;
+        row-gap: 40px;
+        grid-template-areas:
+        "hangman"
+        "rpg"
+        "trivia" 
+        "rutgers"
+        "rock-paper-scissors";
+    }
+
+    .hangman {
+        grid-area: hangman;
+        position: relative;
+        grid-row: 1;
+    }
+    .rpg {
+        grid-area: rpg;
+        position: relative;
+        grid-row: 2;
+    }
+    .trivia {
+        grid-area: trivia;
+        position: relative;
+        grid-row: 3;
+    }
+    .rutgers {
+        grid-area: rutgers;
+        position: relative;
+        grid-row: 4;
+    }
+    .rock-paper-scissors {
+        grid-area: rock-paper-scissors;
+        position: relative;
+        grid-row: 5;
+    }
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+    .body-container {
+        min-height: 2380px !important;
+    }
+    .banner {
+        position: absolute;
+        text-align: center;
+        bottom: 10;
+        width: 100%;
+        height: 60px;
+        background-color: #4aaaa5;
+    }
+}

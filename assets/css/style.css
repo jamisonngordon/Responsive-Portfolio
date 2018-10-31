@@ -104,6 +104,9 @@ a {
         justify-content: flex-end;
         margin-right: 50px;
     }
+    .header-grid {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -124,6 +127,7 @@ a {
         flex-wrap: nowrap;
         justify-content: flex-end;
         margin-right: 20px;
+        width: auto;
     }
     .header-grid {
         width: auto;
@@ -154,6 +158,7 @@ a {
         flex-wrap: nowrap;
         justify-content: flex-end;
         margin: auto;
+        width: auto;
         height: 65px;
     }
     .header-grid {
