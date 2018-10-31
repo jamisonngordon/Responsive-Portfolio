@@ -91,4 +91,7 @@
         line-height: 170%;
         color: #777777;
     }
+    .body-container {
+        min-height: 1280px !important;
+    }
 }
